@@ -1,0 +1,17 @@
+
+.footerlogo{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfumewhite.png?raw=true);
+    display: block;
+    width: 128px;
+    height: 38px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.footerbar{
+    @include media-breakpoint-down(md) { 
+        font-size: 0.875rem;
+        margin-left: auto;
+     }
+}

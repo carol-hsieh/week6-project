@@ -1,0 +1,43 @@
+.notes{
+    font-size: 0.875rem;
+}
+.h6{
+    border-bottom: 1px solid black;
+}
+// .hvr-underline-from-center:hover{
+//     color:black;
+// }
+
+.col-lg-7{
+    @include media-breakpoint-down(md) { 
+        order:2;
+     }
+}
+
+.msRow{
+    @include media-breakpoint-down(md) { 
+       display: flex;
+        flex-direction: row;
+    }
+}
+    
+.ms-p{
+    @include media-breakpoint-down(md) { 
+       padding-right: 43px;
+     }
+}
+.mb-ms-x{
+    @include media-breakpoint-down(md) { 
+        padding-bottom: 40px;
+      }
+}
+.customcenter{
+    @include media-breakpoint-down(md) { 
+        display: none;
+       
+    }
+}
+
+.customNomber{
+    font-size: 1.25rem;
+}

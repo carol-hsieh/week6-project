@@ -1,0 +1,9 @@
+.loginPic{
+  @include media-breakpoint-down(md) { 
+      width: 345px;
+      height: 220px;
+  }  
+}
+.login{
+    margin-bottom: 28px;
+}

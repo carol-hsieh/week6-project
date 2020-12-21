@@ -1,0 +1,18 @@
+nav ul{
+    padding:14px  0px;
+    font-weight: none;
+}
+
+.page-link{
+    &:hover{
+        color:$secondary;
+        background-color:white;
+    }
+}
+
+
+.productMenu {
+    @include media-breakpoint-down(md) { 
+    display: none;
+ }
+}
